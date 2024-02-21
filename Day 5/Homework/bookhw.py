@@ -1,5 +1,5 @@
 #declaring value of starting
-# prices for 10 books
+#prices for 10 books
 book1_starting_price = 9
 book2_starting_price = 13
 book3_starting_price = 11
