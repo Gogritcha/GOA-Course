@@ -10,4 +10,4 @@ price_after_discount = first_price - first_price * discount / 100
 discount = 20
 
 price_after_discount2 = first_price - first_price * discount / 100
-print(price_after_discount)
+print(price_after_discount2)
