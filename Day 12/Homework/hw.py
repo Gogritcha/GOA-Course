@@ -52,8 +52,8 @@ for i in range(number1,number2 + 1):
 
 user_num = input("Enter number here: ")
 sum = 0
-for i in user_num:
-    sum += int(i)
+for a in user_num:
+    sum += int(a)
 print(sum)
 
 
