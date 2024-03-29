@@ -8,7 +8,7 @@ print(films,cars)
 
 
 name = "Nika"
-print(name[0],name[3])
+print(name[0],name[-1])
 
 
 films[2] = "Cars"
