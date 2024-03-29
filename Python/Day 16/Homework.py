@@ -15,5 +15,10 @@ films[2] = "Cars"
 print(films[2])
 
 
+str = "Books"
+list = ["Aplle", "Orange", "Pear", "Pumpkin"]
+print(len(str))
+print(len(list))
+
 nums = [1,102,456,23,45,87,90,12,34,56]
 print(nums[0] + nums[9])
