@@ -7,8 +7,6 @@ print(colors[1])
 
 
 
-
-
 name = "Nika"
 surname = "Gogritchiani"
 print(name[0] + ". " + surname[0] + ".")
