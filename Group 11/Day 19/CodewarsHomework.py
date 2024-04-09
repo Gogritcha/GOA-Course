@@ -35,6 +35,3 @@ def sum_array(a):
     for v in a:
         sum += v
     return sum
-
-
-print(18238*2)
