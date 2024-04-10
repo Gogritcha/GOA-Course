@@ -50,7 +50,7 @@ Bonus (არაა სავალდებულო): ეს სია გა�
 
 def sur_index():
     sur = input("Enter your surname: ")
-    x = 1
+    x = 0
     sur_ = []
     while len(sur) != len(sur_):
         sur_.append(sur[x])
