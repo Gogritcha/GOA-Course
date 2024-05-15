@@ -10,3 +10,25 @@ def duplicate_encode(word):
         else:
             result += "("
     return result
+
+
+'''https://www.codewars.com/kata/59daf400beec9780a9000045/train/python'''
+
+def name_in_str(strng, name):
+    name_index = 0
+    for char in strng.lower():
+        if char == name[name_index].lower():
+            name_index += 1
+            if name_index == len(name):
+                return True
+    return False
+
+
+'''https://www.codewars.com/kata/52bc74d4ac05d0945d00054e/train/python'''
+
+def first_non_repeating_letter(s):
+    s_low = s.lower()
+    for i in s:
+        if s_low.count(i.lower()) == 1:
+            return i
+    return ""
