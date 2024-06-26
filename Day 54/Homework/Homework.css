@@ -1,0 +1,24 @@
+body {
+    background-color: gray;
+}
+.parent-div {
+    display: flex;
+}
+
+.child-div {
+    flex: 1;
+    background-color: white;
+    border: 30px solid gray; 
+}
+
+#img{
+    background-image: url(OIP.jpg);
+}
+
+#process {
+    text-align: center;
+}
+
+#font {
+    font-size: x-large;
+}
