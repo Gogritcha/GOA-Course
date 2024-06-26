@@ -1,0 +1,23 @@
+.parent {
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url(OIP.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin: 500px auto;
+    overflow: hidden;
+}
+.child h1 {
+    font-size: 70px;
+}
+.child p {
+    font-size: 30px;
+}
+.child {
+    height: 100%;
+    color: white;
+    padding-top: 80px;
+    padding-left: 220px;
+    background-color: rgba(90, 45, 4, 0.4);
+}
